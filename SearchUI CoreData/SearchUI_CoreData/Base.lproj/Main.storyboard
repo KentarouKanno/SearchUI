@@ -8,7 +8,7 @@
         <!--Search UI-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchUI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchUI_CoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="83" id="BJ1-1P-U3X" customClass="CustomCell" customModule="SearchUI" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="83" id="BJ1-1P-U3X" customClass="CustomCell" customModule="SearchUI_CoreData" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BJ1-1P-U3X" id="U3E-qX-2vz">
@@ -44,7 +44,7 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-fZ-Wk9">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-fZ-Wk9">
                                                     <rect key="frame" x="20" y="10" width="280" height="25"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,7 +58,7 @@
                                                 <constraint firstItem="EC6-xq-boE" firstAttribute="leading" secondItem="U3E-qX-2vz" secondAttribute="leading" constant="20" id="6Mw-W2-Hda"/>
                                                 <constraint firstAttribute="trailing" secondItem="EC6-xq-boE" secondAttribute="trailing" constant="20" id="I6v-lJ-VxX"/>
                                                 <constraint firstAttribute="trailing" secondItem="Nu4-BM-cFY" secondAttribute="trailing" constant="20" id="Ogi-60-DY8"/>
-                                                <constraint firstItem="EC6-xq-boE" firstAttribute="top" secondItem="6Bq-fZ-Wk9" secondAttribute="bottom" constant="10" id="Pvg-JM-acp"/>
+                                                <constraint firstItem="EC6-xq-boE" firstAttribute="top" secondItem="6Bq-fZ-Wk9" secondAttribute="bottom" constant="9" id="Pvg-JM-acp"/>
                                                 <constraint firstItem="EC6-xq-boE" firstAttribute="top" secondItem="U3E-qX-2vz" secondAttribute="top" constant="44" id="Xdx-pG-Cax"/>
                                                 <constraint firstItem="6Bq-fZ-Wk9" firstAttribute="top" secondItem="U3E-qX-2vz" secondAttribute="top" constant="10" id="kgw-hj-4wc"/>
                                                 <constraint firstAttribute="bottom" secondItem="Nu4-BM-cFY" secondAttribute="bottom" constant="22" id="tyK-n6-cwp"/>
